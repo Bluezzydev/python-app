@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'app.Main'
+    }
+}

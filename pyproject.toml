@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "koptan-py-poetry"
+version = "0.1.0"
+description = "Koptan test app"
+authors = ["Beshay"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = ">=0.110"
+
+[build-system]
+requires = ["poetry-core>=1.9"]
+build-backend = "poetry.core.masonry.api"
